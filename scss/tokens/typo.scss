@@ -1,0 +1,46 @@
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&display=swap');
+$typo-font-primary: 'Roboto', sans-serif;
+
+@font-face {
+    font-family: 'TeXGyreHerosCondensed';
+    src: url('../../fonts/TeXGyreHerosCondensed-Regular/TeXGyreHerosCondensed-Regular.eot');
+    src: url('../../fonts/TeXGyreHerosCondensed-Regular/TeXGyreHerosCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/TeXGyreHerosCondensed-Regular/TeXGyreHerosCondensed-Regular.woff2') format('woff2'),
+         url('../../fonts/TeXGyreHerosCondensed-Regular/TeXGyreHerosCondensed-Regular.woff') format('woff'),
+         url('../../fonts/TeXGyreHerosCondensed-Regular/TeXGyreHerosCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$typo-TeXGyreHerosCondensed: 'TeXGyreHerosCondensed', sans-serif;
+
+//typos
+$typo-h1: 23px;
+$typo-h2: 1.8rem;
+$typo-h3: 1.6rem;
+$typo-h4: 1.4rem;
+$typo-h5: 1.2rem;
+$typo-h6: 1rem;
+$typo-p: 1rem;
+$typo-small: .8rem;
+
+//typo weight
+$typo-bold: 700;
+$typo-normal: 400;
+$typo-light: 300;
+$typo-italic: italic;
+
+//typo transform
+$typo-lowercase: lowercase;
+$typo-uppercase: uppercase;
+$typo-capitalize: capitalize;
+
+//typo align
+$typo-left: left;
+$typo-right: right;
+$typo-center: center;
+$typo-justify: justify;
+
+//typo decoration
+$typo-none: none;
